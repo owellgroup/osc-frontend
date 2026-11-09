@@ -1,4 +1,4 @@
-const LIVE_API = 'https://api.ytnafrica.live'
+const LIVE_API = 'https://api.obsidian-shield.com'
 const rawApi = import.meta.env.VITE_API_URL as string | undefined
 export const API_URL = (rawApi && rawApi.length > 0 ? rawApi : LIVE_API).replace(/\/+$/, '')
 
